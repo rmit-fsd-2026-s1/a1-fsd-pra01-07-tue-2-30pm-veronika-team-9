@@ -29,13 +29,15 @@ body {
 
 
 .grid-nav {
-  top: 53px;
-  position:sticky;
-  /* align-self: start; */
-  /* height: 100vh; */
+  position: sticky;
+  top: 53.7px;
+  height: calc(100vh - 53.7px);
+  align-self: start;
 }
+
 
 .grid-header {
   position: sticky;
   top: 0;
 }
+
