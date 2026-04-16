@@ -1,11 +1,11 @@
 import Format from "@/components/format";
 
-export default function Login() {
+export default function SignUp() {
     
     return (
       <Format body={
         <div>
-            <p>Login Page</p>                
+            <p>Sign Up page</p>                
         </div>
 
         }/>

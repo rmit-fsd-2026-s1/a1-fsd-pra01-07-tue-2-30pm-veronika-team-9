@@ -1,6 +1,6 @@
 export default function Footer() {
  return(
     <footer>
-        <p>Footer</p>
+        <p>Contact us at: support@venuevendors.com</p>
     </footer>)
 }
