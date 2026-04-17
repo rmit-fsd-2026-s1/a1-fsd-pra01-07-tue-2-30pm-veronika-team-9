@@ -21,11 +21,19 @@ export default function Vendor() {
     }
   }, []);
 
+  useEffect(() => {
+    localStorage.setItem("venues", JSON.stringify(venues));
+  }, [venues]); //saves venue list
+
     return (
-        <Format body={
-            <div>
-                    
-            </div>
-        }/>
+      <div>
+        <p>Vendor Placeholder</p>
+        {/* List applicants including hire history */}
+        {/* Select applicants */}
+        {/* Comment on applicants */}
+        {/* Approve applicants and confirm booking (does nothing) */}
+        
+
+      </div>
     );
 }
