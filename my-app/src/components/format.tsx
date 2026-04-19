@@ -23,13 +23,13 @@ export default function Format({body}:page) {
     color='blackAlpha.700' //Does not have full opacity (is at 70%). It looks nice, likely temporary
     fontWeight='bold'
       >
-    <GridItem pl='2' bg='orange.300' area={'header'} className="grid-header" > {/*pl is padding, bg is background */}
+    <GridItem pl='2' bg='gray.200' area={'header'} className="grid-header" > {/*pl is padding, bg is background */}
       <Header />
     </GridItem>
-    <GridItem pl='0' bg='pink.300' area={'nav'} className="grid-nav">
+    <GridItem pl='0' bg='gray.100' area={'nav'} className="grid-nav">
       <Nav />
     </GridItem>
-    <GridItem pl='2' bg='green.300' area={'main'}>
+    <GridItem pl='2' bg='gray.800' area={'main'}>
         {body} {/*Varies based on page*/}
     </GridItem>
     <GridItem pl='2' bg='blue.300' area={'footer'}>
